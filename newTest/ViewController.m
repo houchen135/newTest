@@ -145,7 +145,7 @@
     // 开始更新设备信息(加速度)
     [_motionManager startAccelerometerUpdates];
     // 用一个计时器不停地多次取 加速器的信息(pull方法需要自己取加速器的信息)
-    _updateTimer = [NSTimer scheduledTimerWithTimeInterval:0.04 target:self selector:@selector(upDataMontionManagerData)userInfo:nil repeats:YES];
+    _updateTimer = [NSTimer scheduledTimerWithTimeInterval:0.15 target:self selector:@selector(upDataMontionManagerData)userInfo:nil repeats:YES];
     
     
 #pragma mark ------push方式获取---------
@@ -184,7 +184,7 @@
     
     double b = atan2(accelerometerData.acceleration.z, accelerometerData.acceleration.y);
     if (b<=0) {
-        _ball.h=200-(1-fabs(b)/M_PI)*100;
+        _ball.h=175-(1-fabs(b)/M_PI)*100;
     }
 //    NSLog(@"b=====%f",(1-fabs(b)/M_PI));
 }
