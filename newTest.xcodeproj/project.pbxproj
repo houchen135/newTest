@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23724E2062D3B47DEA45E0C6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C28DCE7DAF7F440622F6000 /* libPods.a */; };
+		AC01E7041D1CC7D70008BE2E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC01E7031D1CC7D70008BE2E /* CoreMotion.framework */; };
 		AC7056261CCE64EA00634BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7056251CCE64EA00634BCC /* main.m */; };
 		AC7056291CCE64EA00634BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7056281CCE64EA00634BCC /* AppDelegate.m */; };
 		AC70562C1CCE64EA00634BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC70562B1CCE64EA00634BCC /* ViewController.m */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		312E57D1F77D3036169F55C6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8C28DCE7DAF7F440622F6000 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC01E7031D1CC7D70008BE2E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		AC7056211CCE64EA00634BCC /* newTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7056251CCE64EA00634BCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC7056271CCE64EA00634BCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC01E7041D1CC7D70008BE2E /* CoreMotion.framework in Frameworks */,
 				23724E2062D3B47DEA45E0C6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +95,7 @@
 		A0E094E9AA3B088006A6C007 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC01E7031D1CC7D70008BE2E /* CoreMotion.framework */,
 				8C28DCE7DAF7F440622F6000 /* libPods.a */,
 			);
 			name = Frameworks;
